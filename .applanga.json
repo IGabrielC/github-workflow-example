@@ -7,6 +7,7 @@
         {
           "file_format": "react_simple_json", 
           "exclude_languages": ["en"],
+          "tag": "cli-translations",
           "path": "./react_json_sample/<language>/translations.json"
         }
       ]
@@ -16,6 +17,7 @@
         {
           "language": "en",
           "file_format": "react_simple_json", 
+          "tag": "cli-translations",
           "path": "./react_json_sample/en/translations.json"
         }
       ]
