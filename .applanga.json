@@ -1,6 +1,7 @@
 {
   "app": {
     "base_language": "en",
+ 
     "pull": {
       "target": [
         {
@@ -10,7 +11,7 @@
           "path": "./react_json_sample/<language>/translations.json"
         }
       ]
-    }, 
+    },     
     "push": {
       "source": [
         {
