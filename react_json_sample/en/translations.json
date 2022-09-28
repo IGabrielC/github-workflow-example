@@ -2,6 +2,7 @@
   "sample_id_1": "Hello24",
   "sample_id_2": "How are you?",
   "sample_id_3": "Bye for now",
-  "sample_id_4": "new translation added via Github editor"
-  "sample_id_5": "translation added from another branch"
+  "sample_id_4": "new translation added via Github editor",
+  "sample_id_5": "translation added from another branch",
+  "sample_id_6": "change from master branch"
 }
