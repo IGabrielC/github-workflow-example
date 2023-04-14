@@ -1,0 +1,69 @@
+{
+  "app": {
+    "base_language": "ro",
+    "push": {
+      "source": [
+        {
+          "language": "ro",
+          "file_format": "angular_translate_json",
+          "path": "./react_json_sample/de/translations.json",
+          "tag": "app:language.json"
+        },
+        {
+          "language": "ro",
+          "file_format": "angular_translate_json",
+          "path": "./react_json_sample/en/translations.json",
+          "tag": "app:language:7362.json"
+        },
+        {
+          "language": "ro",
+          "file_format": "angular_translate_json",
+          "path": "./react_json_sample/es/translations.json",
+          "tag": "app:language:8770.json"
+        },
+        {
+          "language": "ro",
+          "file_format": "angular_translate_json",
+          "path": "./react_json_sample/fr/translations.json",
+          "tag": "app:language:1998.json"
+        }
+      ]
+    },
+    "pull": {
+      "target": [
+        {
+          "exclude_languages": [
+            "ro"
+          ],
+          "file_format": "angular_translate_json",
+          "path": "./react_json_sample/de/<language>.json",
+          "tag": "app:language.json"
+        },
+        {
+          "exclude_languages": [
+            "ro"
+          ],
+          "file_format": "angular_translate_json",
+          "path": "./react_json_sample/en/<language>.json",
+          "tag": "app:language:7362.json"
+        },
+        {
+          "exclude_languages": [
+            "ro"
+          ],
+          "file_format": "angular_translate_json",
+          "path": "./react_json_sample/es/<language>.json",
+          "tag": "app:language:8770.json"
+        },
+        {
+          "exclude_languages": [
+            "ro"
+          ],
+          "file_format": "angular_translate_json",
+          "path": "./react_json_sample/fr/<language>.json",
+          "tag": "app:language:1998.json"
+        }
+      ]
+    }
+  }
+}
