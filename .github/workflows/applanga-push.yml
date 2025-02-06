@@ -4,10 +4,7 @@ on:
     branches:
       - master
     paths:
-      - react_json_sample/de/translations.json
       - react_json_sample/en/translations.json
-      - react_json_sample/es/translations.json
-      - react_json_sample/fr/translations.json
   workflow_dispatch:
     inputs:
       push_targets:
@@ -22,9 +19,9 @@ jobs:
       - uses: actions/checkout@v3
         with:
           path: checkout
-      - uses: applanga/setup-applanga-cli@v1.0.2
+      - uses: applanga/setup-applanga-cli@v1.0.3
         with:
-          version: 1.0.75
+          version: 1.0.*
       - name: Push Sources to Applanga
         if: '${{ inputs.push_targets != true }}'
         env:
