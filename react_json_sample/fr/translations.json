@@ -1,4 +1,10 @@
 {
   "sample_id_2": "Comment vas-tu?",
-  "sample_id_4": "nouvelle traduction ajoutée via l’éditeur Github"
+  "sample_id_4": "nouvelle traduction ajoutée via l’éditeur Github",
+  "custom-key1_copy2": "À plus tard",
+  "custom-key1_copy2_copy": [
+    "À plus tard",
+    "À plus tard",
+    "À plus tard"
+  ]
 }
